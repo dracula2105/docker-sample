@@ -1,0 +1,19 @@
+{
+    "name": "demo-sample",
+    "version": "1.0.0",
+    "description": "Demo sample docker with nodejs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Demo-sample"
+    ],
+    "author": "Tri Phan",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1"
+    }
+}
